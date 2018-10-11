@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* First div */
+
+
+
+body {
+    background: url('../Images/bg.png') no-repeat;
+    min-width: 1360px;
+}
+
+section{
+    margin-left: 60
+}
+
+.first-row {
+    position: relative;
+    top: 90;
+}
+
+div,p,img{
+    display: inline-table;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    position: relative;
+    left: 175;
+    bottom: 60;
+}
+
+p {
+    position: relative;
+    right: 253;
+    top: 30;
+    color: white;
+    font-size: 2em;
+}
+
+.t {
+    position: relative;
+    left: 4px;
+}
+
+.team img{
+    background-color: #01ad97;
+    position: relative;
+    left:  116.3;
+    width: 140;
+    -webkit-transition: background-color 1.5s;
+}
+
+.team img:hover {
+    background-color: #ff8bae;
+}
+
+/* First div */
+
+/* Second div */
+
+.second-row img {
+    width: 140px;
+    background-color: #01c5ad;
+    position: relative;
+    top: 82;
+    left: 179;
+    -webkit-transition: background-color 1.5s;
+}
+
+.second-row img:hover {
+    background-color: #da7695;
+}
+
+div.second-row img:nth-child(2) {
+    background-color: #02d2ba;
+    -webkit-transition: background-color 1.5s;
+}
+
+div.second-row img:nth-child(2):hover {
+    background-color: #e84c7b;
+}
+
+div.second-row img:nth-child(5) {
+    background-color: #01c5ad;
+    -webkit-transition: background-color 1.5s;
+}
+
+div.second-row img:nth-child(5):hover {
+    background-color: #ff3371;
+}
+
+/* Second div */
+
+/* Third div */
+
+.third-row {
+    position: relative;
+    top: 82;
+    left:319;
+}
+
+.third-row img {
+    width:140px;
+    background-color: #01dfc6;
+    -webkit-transition: background-color 1.5s;
+}
+
+.third-row img:hover {
+    background-color: #cf2055;
+   
+}
+
+.third-row img:last-child {
+    position: relative;
+    left: 280;
+}
+
+
+/* Third div */
